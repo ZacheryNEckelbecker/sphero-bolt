@@ -43,7 +43,8 @@ async function startProgram() {
 	await roll(0, 45, 1.5); 
 	await delay(2); 
 	await roll(315, 46, 1.25);
-	
-	
-	
-	
+
+//Sound 3 
+	await speak('Sound 3', true); 
+	await delay(2);
+	await roll(0, 60, 1.5);
