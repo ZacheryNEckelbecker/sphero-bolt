@@ -23,8 +23,20 @@ async function startProgram(){
 	await delay(1.5); 
 	await roll(130, 35.75, 1.25); 
 	await speak('Good Morning', true) 
-	
+	await delay(1.5); 
+	await roll(180, 43.5, 1.5);
+	await delay(1.5); 
+	setMainLed({ r: 0, g: 255, b: 0}) 
+	await roll(89.5, 29 , 1.1); 
 
 	
-
-
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
