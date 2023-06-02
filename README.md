@@ -48,3 +48,11 @@ async function startProgram() {
 	await speak('Sound 3', true); 
 	await delay(2);
 	await roll(0, 60, 1.5);
+
+//Purple LED 
+	setMainLed({ r: 40, g: 0, b: 255}); 
+	await delay(2);
+//End 
+}
+
+//Could make all different functions and call here for longer code, but simpler tracing for issues. 
