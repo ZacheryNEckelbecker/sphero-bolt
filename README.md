@@ -35,9 +35,14 @@ async function startProgram() {
 	await roll(170, 43.5, 1); 
 	await delay(1.5); 
 	
-	
-	
-	
+//Green LED 
+	setMainLed({ r: 0, g: 255, b: 0}); 
+	await roll(89.5, 29 , 1);
+	await roll(89.5, 40, 1); 
+	await delay(2); 
+	await roll(0, 45, 1.5); 
+	await delay(2); 
+	await roll(315, 46, 1.25);
 	
 	
 	
